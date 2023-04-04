@@ -20,17 +20,19 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import firebase from "./tech/firebase.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import maximus from "./company/maximus.png";
+import lnwh from "./company/lnwh.png";
+import freelance from "./company/freelance.png";
+import ucl from "./company/ucl.png";
+import vevu from "./company/vevu.png";
+import trilogy from "./company/trilogy.png";
 
 export {
+  bootstrap,
+  firebase,
   logo,
   backend,
   creator,
@@ -52,11 +54,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  maximus,
+  lnwh,
+  freelance,
+  ucl,
+  vevu,
+  trilogy,
 };

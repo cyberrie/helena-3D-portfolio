@@ -19,15 +19,16 @@ import {
   vevu,
   trilogy,
   threejs,
-  TuneLab,
   firebase,
-  linkedinclone,
-  moodmix,
-  weatherdashboard,
-  dailyplanner,
-  teamprofiles,
   bootstrap,
 } from "../assets";
+
+import TuneLab from "../assets/TuneLab.png";
+import linkedinclone from "../assets/linkedinclone.png";
+import moodmix from "../assets/moodmix.png";
+import weatherdashboard from "../assets/weatherdashboard.png";
+import dailyplanner from "../assets/dailyplanner.png";
+import teamprofiles from "../assets/teamprofiles.png";
 
 export const navLinks = [
   {
