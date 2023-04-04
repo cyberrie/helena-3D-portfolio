@@ -1,0 +1,11 @@
+Model Information:
+* title:	Desktop Computer
+* source:	https://sketchfab.com/3d-models/desktop-computer-e6332b415ccd4a61acdff22b4636ce16
+* author:	Zeppelin (https://sketchfab.com/zeppelingames)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Desktop Computer" (https://sketchfab.com/3d-models/desktop-computer-e6332b415ccd4a61acdff22b4636ce16) by Zeppelin (https://sketchfab.com/zeppelingames) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
