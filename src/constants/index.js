@@ -149,8 +149,8 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Mar 2020 - Mar 2021",
     points: [
-      "Implemented successful remote training program during unprecedented times, onboarding and equipping 30+ new staff to become functional assessors.",
-      "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
+      // "Implemented successful remote training program during unprecedented times, onboarding and equipping 30+ new staff to become functional assessors.",
+      // "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
 
     ],
   },
@@ -161,7 +161,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2018 - Mar 2020",
     points: [
-      "Transforming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
+      // "Transforming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
     ],
   },
   {
@@ -171,9 +171,9 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2017 - Sep 2018",
     points: [
-      "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department",
+      // "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department",
   
-      "Mentored students and Junior Physiotherapists.",
+      // "Mentored students and Junior Physiotherapists.",
   
     ],
   },
@@ -233,7 +233,7 @@ const projects = [
   {
     name: "TuneLab",
     description:
-      "Web application that allows you to discover top artists, top charts, and top artists and charts, search for and listen to your favourite music. The app utilizes ShazamCore API, React Redux, Tailwind, and Vite, and is deployed on Netlify (unfortunately, I can't share the link due to the pesky subscription fee for Shazam Core API - link will take you to demo).",
+      "Discover top artists and charts, search and listen to music with this web app. Built with ShazamCore API, React Redux, Tailwind, and Vite, and deployed on Netlify. Demo available due to subscription fee for Shazam Core API.",
     tags: [
       {
         name: "react",
@@ -254,7 +254,7 @@ const projects = [
   {
     name: "LinkedIn Clone",
     description:
-      "Web application created with React, Redux, and Firebase. It lets users register with their name, email, and password, and create new posts that will appear on the feed section. The app is styled with Material UI and user data is stored in Cloud Firestore. The app is deployed on Firebase and login details are stored in Redux for seamless user experience.",
+      "A React-based web app that uses Firebase and Cloud Firestore for user authentication and data storage. Users can register, create posts, and view them on the feed. Material UI is used for styling and login details are stored in Redux for a seamless experience. Deployed on Firebase.",
     tags: [
       {
         name: "react",
@@ -275,7 +275,7 @@ const projects = [
   {
     name: "MoodMix",
     description:
-      "Web application that combines mixology, gastronomy, and inspiration to create a unique experience for users. It features a polished UI, uses server-side APIs, and client-side storage for persistent data. Built with HTML, CSS, Bootstrap, JavaScript, and deployed on GitHub Pages",
+      "This web app offers a unique experience that combines mixology, gastronomy, and inspiration. It has a polished UI and uses server-side APIs and client-side storage for data persistence. Created with HTML, CSS, Bootstrap, and JavaScript, and deployed on GitHub Pages.",
     tags: [
       {
         name: "restapi",
@@ -287,7 +287,7 @@ const projects = [
       },
       {
         name: "javascript",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: moodmix,
@@ -296,7 +296,7 @@ const projects = [
   {
     name: "Weather Dashboard",
     description:
-      "Web application that provides current and future weather conditions for a searched city, and stores search history using local storage. It uses OpenWeather API to retrieve weather data and was built with HTML, CSS, JavaScript, and Moment.js. Through this project, I learned how to access data from backend servers, use server-side APIs, and work with JSON in web applications.",
+      "This web app shows current and future weather for searched cities and stores search history in local storage. OpenWeather API provides weather data. Built with HTML, CSS, JavaScript, Moment.js.",
     tags: [
       {
         name: "restapi",
@@ -308,7 +308,7 @@ const projects = [
       },
       {
         name: "javascript",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: weatherdashboard,
@@ -317,7 +317,7 @@ const projects = [
   {
     name: "Daily Planner",
     description:
-      "Web calendar application built with HTML, CSS, JavaScript, jQuery, and Moment.js. It allows users to save events for each hour of the day, displays the current day and time-blocks color-coded based on past, present, and future. Events are saved in local storage, persisting between refreshes. With the Daily Planner app, staying on top of your busy schedule has never been easier!",
+      "A web calendar app built with HTML, CSS, JavaScript, jQuery, and Moment.js. It allows saving events for each hour of the day and displays the current day. Time-blocks are color-coded and events persist using local storage.",
     tags: [
       {
         name: "jquery",
@@ -329,7 +329,7 @@ const projects = [
       },
       {
         name: "javascript",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: dailyplanner,
@@ -338,7 +338,7 @@ const projects = [
   {
     name: "Team-Profile Generator",
     description:
-      "Node.js command-line app that generates an HTML webpage of employee summaries for a software engineering team. Developed with Test-Driven Development and Inquirer package for user input. The app includes input validation and prompts for team manager, engineer, and intern information. Unit tests performed with Jest package. ",
+      "This Node.js command-line app generates an HTML webpage of employee summaries for a software engineering team. It uses TDD, Inquirer for user input, and Jest package for unit tests. Includes input validation and prompts for team members. ",
     tags: [
       {
         name: "nodejs",
@@ -350,7 +350,7 @@ const projects = [
       },
       {
         name: "javascript",
-        color: "green-text-gradient",
+        color: "pink-text-gradient",
       },
     ],
     image: teamprofiles,
