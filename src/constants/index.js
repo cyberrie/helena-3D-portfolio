@@ -74,10 +74,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
@@ -119,7 +119,7 @@ const technologies = [
 const experiences = [
   {
     title: "Frontend Developer",
-    company_name: "Helena Gilja",
+    company_name: "Freelance",
     icon: logo,
     iconBg: "#E6DEDD",
     date: "Mar 2023 - Present",
