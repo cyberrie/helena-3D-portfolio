@@ -10,7 +10,6 @@ import {
   nodejs,
   git,
   figma,
-  creator,
   maximus,
   lnwh,
   freelance,
@@ -30,6 +29,7 @@ import dailyplanner from "../assets/dailyplanner.png";
 import teamprofiles from "../assets/teamprofiles.png";
 import design from '../assets/design.png'
 import reactive from '../assets/reactive.png'
+import { logo } from "../assets";
 
 export const navLinks = [
   {
@@ -118,29 +118,28 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Physiotherapist",
-    company_name: "LNWH",
-    icon: lnwh,
+    title: "Frontend Developer",
+    company_name: "Helena Gilja",
+    icon: logo,
     iconBg: "#E6DEDD",
-    date: "Aug 2017 - Sep 2018",
+    date: "Mar 2023 - Present",
     points: [
-      "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department of Northwick Park Hospital.",
-      "Assisted early discharge and prevented hospital admissions for 10+ patients daily.",
-      "Mentored students and Band 5 Physiotherapists and Occupational Therapists",
-      "#Physiotherapy #Rehabilitation #MSKPhysio #CardioRespiratoryPhysio #EmergencyPhysio #Mentoring",
+      "Developing web applications using React and other related technologies.",
+      "Implementing responsive design to ensure that the applications are accessible across all devices and ensuring cross-browser compatibility for seamless user experiences.",
+      "Collaborating with clients throughout the development process to ensure that their requirements are fully met and the end-product is of high quality.",
     ],
   },
   {
-    title: "Functional Assessor (Physiotherapist)",
+    title: "Clinical Manager",
     company_name: "Maximus UK",
     icon: maximus,
     iconBg: "#E6DEDD",
-    date: "Sep 2018 - Mar 2020",
+    date: "Sep 2021 - Present",
     points: [
-      "As a part of my role, delivering the Health Assessment Advisory Service, covering a range of benefits.",
-      "Transorming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
-      "Submitting reports to DWP so that they can make an informed decision about an individual’s eligibility for benefits",
-      "#CodeOfConduct #TransformingLives #Physiotherapy #OccupationalHealth",
+      "Developing strategies to improve clinical performance and engagement, resulting in quality enhancements seen regionally and nationally.",
+      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
+      "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
+      "#BusinessProcessImprovement #TeamLeadership #QualityAssurance #Management #ClinicalSupervision #TeamBuilding #CustomerService #CustomerRelations",
     ],
   },
   {
@@ -157,30 +156,35 @@ const experiences = [
     ],
   },
   {
-    title: "Clinical Manager",
+    title: "Functional Assessor (Physiotherapist)",
     company_name: "Maximus UK",
     icon: maximus,
     iconBg: "#E6DEDD",
-    date: "Sep 2011 - Present",
+    date: "Sep 2018 - Mar 2020",
     points: [
-      "Developing strategies to improve clinical performance and engagement, resulting in quality enhancements seen regionally and nationally.",
-      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
-      "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
-      "#BusinessProcessImprovement #TeamLeadership #QualityAssurance #Management #ClinicalSupervision #TeamBuilding #CustomerService #CustomerRelations",
+      "As a part of my role, delivering the Health Assessment Advisory Service, covering a range of benefits.",
+      "Transorming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
+      "Submitting reports to DWP so that they can make an informed decision about an individual’s eligibility for benefits",
+      "#CodeOfConduct #TransformingLives #Physiotherapy #OccupationalHealth",
     ],
   },
   {
-    title: "Freelance React Developer",
-    company_name: "Helena Gilja",
-    icon: freelance,
+    title: "Physiotherapist",
+    company_name: "LNWH",
+    icon: lnwh,
     iconBg: "#E6DEDD",
-    date: "Mar 2023 - Present",
+    date: "Aug 2017 - Sep 2018",
     points: [
-      "Developing web applications using React and other related technologies.",
-      "Implementing responsive design to ensure that the applications are accessible across all devices and ensuring cross-browser compatibility for seamless user experiences.",
-      "Collaborating with clients throughout the development process to ensure that their requirements are fully met and the end-product is of high quality.",
+      "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department of Northwick Park Hospital.",
+      "Assisted early discharge and prevented hospital admissions for 10+ patients daily.",
+      "Mentored students and Band 5 Physiotherapists and Occupational Therapists",
+      "#Physiotherapy #Rehabilitation #MSKPhysio #CardioRespiratoryPhysio #EmergencyPhysio #Mentoring",
     ],
   },
+ 
+  
+ 
+ 
 ];
 
 const education = [
