@@ -125,7 +125,7 @@ const experiences = [
     date: "Mar 2023 - Present",
     points: [
       "Developing web applications using React and other related technologies.",
-      "Implementing responsive design to ensure that the applications are accessible across all devices and ensuring cross-browser compatibility for seamless user experiences.",
+      "Implementing responsive design and ensuring cross-browser compatibility for seamless user experiences.",
       "Collaborating with clients throughout the development process to ensure that their requirements are fully met and the end-product is of high quality.",
     ],
   },
@@ -137,9 +137,9 @@ const experiences = [
     date: "Sep 2021 - Present",
     points: [
       "Developing strategies to improve clinical performance and engagement, resulting in quality enhancements seen regionally and nationally.",
-      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
       "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
-      "#BusinessProcessImprovement #TeamLeadership #QualityAssurance #Management #ClinicalSupervision #TeamBuilding #CustomerService #CustomerRelations",
+      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
+   
     ],
   },
   {
@@ -150,9 +150,8 @@ const experiences = [
     date: "Mar 2020 - Mar 2021",
     points: [
       "Implemented successful remote training program during unprecedented times, onboarding and equipping 30+ new staff to become functional assessors.",
-      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
       "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
-      "#QualityAssurance #Mentoring #Coaching #StaffDevelopment #TeamBuilding",
+
     ],
   },
   {
@@ -162,10 +161,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Sep 2018 - Mar 2020",
     points: [
-      "As a part of my role, delivering the Health Assessment Advisory Service, covering a range of benefits.",
-      "Transorming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
-      "Submitting reports to DWP so that they can make an informed decision about an individual’s eligibility for benefits",
-      "#CodeOfConduct #TransformingLives #Physiotherapy #OccupationalHealth",
+      "Transforming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
     ],
   },
   {
@@ -175,10 +171,10 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "Aug 2017 - Sep 2018",
     points: [
-      "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department of Northwick Park Hospital.",
-      "Assisted early discharge and prevented hospital admissions for 10+ patients daily.",
-      "Mentored students and Band 5 Physiotherapists and Occupational Therapists",
-      "#Physiotherapy #Rehabilitation #MSKPhysio #CardioRespiratoryPhysio #EmergencyPhysio #Mentoring",
+      "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department",
+  
+      "Mentored students and Junior Physiotherapists.",
+  
     ],
   },
  
@@ -189,12 +185,12 @@ const experiences = [
 
 const education = [
   {
-    title: "BSc Physiotherapy",
-    company_name: "University of Applied Sciences, Croatia",
-    icon: vevu,
+    title: "Certificate, Frontend Web Development",
+    company_name: "Trilogy Education",
+    icon: trilogy,
     iconBg: "#E6DEDD",
-    date: "Sep 2011 - Sep 2014",
-    grade: "1:1",
+    date: "Oct 2022 - Mar 2023",
+    grade: "A",
   },
   {
     title: "MSc Musculoskeletal Science",
@@ -205,12 +201,12 @@ const education = [
     grade: "1:1",
   },
   {
-    title: "Certificate, Frontend Web Development",
-    company_name: "Trilogy Education",
-    icon: trilogy,
+    title: "BSc Physiotherapy",
+    company_name: "University of Applied Sciences, Croatia",
+    icon: vevu,
     iconBg: "#E6DEDD",
-    date: "Oct 2022 - Mar 2023",
-    grade: "A",
+    date: "Sep 2011 - Sep 2014",
+    grade: "1:1",
   },
 ];
 
