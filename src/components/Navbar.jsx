@@ -38,7 +38,7 @@ const Navbar = () => {
               } hover:text-white text-[18px] font-medium cursor-pointer`} // if active white text, otherwise gray
               onClick={() => setActive(link.title)}
             >
-              <a href={`${link.id}`}>{link.title}</a>
+              <Link href={`${link.id}`}>{link.title}</Link>
             </li>
           ))}
         </ul>
