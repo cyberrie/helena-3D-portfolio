@@ -1,7 +1,6 @@
 import {
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -12,7 +11,6 @@ import {
   figma,
   maximus,
   lnwh,
-  freelance,
   ucl,
   vevu,
   trilogy,
@@ -30,6 +28,8 @@ import teamprofiles from "../assets/teamprofiles.png";
 import design from '../assets/design.png'
 import reactive from '../assets/reactive.png'
 import { logo } from "../assets";
+import dane from '../assets/dane.png'
+import scott from '../assets/scott.png'
 
 export const navLinks = [
   {
@@ -217,7 +217,7 @@ const testimonials = [
     name: "Dane Edwards",
     designation: "Web Development Instructor",
     company: "Trilogy Education (acquired by 2U)",
-    image: "../assets/dane.png",
+    image: dane,
   },
   {
     testimonial:
@@ -225,7 +225,7 @@ const testimonials = [
     name: "Scott Nelson",
     designation: "Full Stack Web Developer",
     company: "2U",
-    image: "../assets/scott.png",
+    image: scott,
   },
 ];
 
