@@ -1,5 +1,4 @@
 import {
-  mobile,
   web,
   javascript,
   typescript,
@@ -29,6 +28,8 @@ import moodmix from "../assets/moodmix.png";
 import weatherdashboard from "../assets/weatherdashboard.png";
 import dailyplanner from "../assets/dailyplanner.png";
 import teamprofiles from "../assets/teamprofiles.png";
+import design from '../assets/design.png'
+import reactive from '../assets/reactive.png'
 
 export const navLinks = [
   {
@@ -51,12 +52,12 @@ const services = [
     icon: web,
   },
   {
-    title: "React Developer",
-    icon: mobile,
+    title: "UI/UX Designer",
+    icon: design,
   },
   {
-    title: "UI/UX Designer",
-    icon: creator,
+    title: "React Developer",
+    icon: reactive,
   },
 ];
 
