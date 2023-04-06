@@ -1,5 +1,5 @@
 import {
-  web,
+  frontend,
   javascript,
   html,
   css,
@@ -17,6 +17,7 @@ import {
   threejs,
   firebase,
   bootstrap,
+  logo
 } from "../assets";
 
 import TuneLab from "../assets/TuneLab.png";
@@ -27,7 +28,6 @@ import dailyplanner from "../assets/dailyplanner.png";
 import teamprofiles from "../assets/teamprofiles.png";
 import design from '../assets/design.png'
 import reactive from '../assets/reactive.png'
-import { logo } from "../assets";
 import dane from '../assets/dane.png'
 import scott from '../assets/scott.png'
 
@@ -49,7 +49,7 @@ export const navLinks = [
 const services = [
   {
     title: "Frontend Developer",
-    icon: web,
+    icon: frontend,
   },
   {
     title: "UI/UX Designer",

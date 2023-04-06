@@ -12,7 +12,7 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-    <hemisphereLight intensity={2} groundColor="black" />
+    <hemisphereLight intensity={2.5} groundColor="brown" />
     <spotLight
       position={[-20, 50, 10]}
       angle={0.19}
@@ -23,7 +23,7 @@ const Computers = ({ isMobile }) => {
     {/* <pointLight intensity={0.1} /> */}
     <primitive
       scale={isMobile ? 0.58 : 0.63}
-      position={isMobile ? [-0.9, -2.1, -0.8] : [-0.3, -2.25, -0.8]} 
+      position={isMobile ? [-0.9, -2.1, -0.8] : [-0.8, -2.25, -0.8]} 
       rotation={[0.13, -Math.PI / -2.9, -0.1]}
       object={computer.scene} />
   </mesh>
@@ -64,7 +64,7 @@ const ComputersCanvas = () => {
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
           // enableRotate={true}
-          enableZoom={true}
+          enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 5}/>
 

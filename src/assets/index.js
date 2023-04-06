@@ -1,8 +1,4 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -22,6 +18,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import firebase from "./tech/firebase.png";
+import frontend from '../assets/frontend.png'
 
 import maximus from "./company/maximus.png";
 import lnwh from "./company/lnwh.png";
@@ -33,11 +30,8 @@ import trilogy from "./company/trilogy.png";
 export {
   bootstrap,
   firebase,
+  frontend,
   logo,
-  backend,
-  creator,
-  mobile,
-  web,
   github,
   menu,
   close,
