@@ -19,6 +19,7 @@ import threejs from "./tech/threejs.svg";
 import bootstrap from "./tech/bootstrap.png";
 import firebase from "./tech/firebase.png";
 import frontend from '../assets/frontend.png'
+import physiotherapist from '../assets/physiotherapist.png'
 
 import maximus from "./company/maximus.png";
 import lnwh from "./company/lnwh.png";
@@ -54,4 +55,5 @@ export {
   ucl,
   vevu,
   trilogy,
+  physiotherapist
 };

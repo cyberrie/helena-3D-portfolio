@@ -17,7 +17,7 @@
 
 .hash-span {
   margin-top: -100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px; 
   display: block;
 }
 
@@ -125,6 +125,22 @@
   -webkit-text-fill-color: transparent;
 }
 
+
+.name-text-gradient {
+  background: #e07171; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #e07171,
+    #ec008c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #e07171,
+    #ec008c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;

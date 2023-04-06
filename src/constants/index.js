@@ -17,7 +17,8 @@ import {
   threejs,
   firebase,
   bootstrap,
-  logo
+  logo,
+  physiotherapist
 } from "../assets";
 
 import TuneLab from "../assets/TuneLab.png";
@@ -56,9 +57,13 @@ const services = [
     icon: design,
   },
   {
-    title: "React Developer",
+    title: "React.js Developer",
     icon: reactive,
   },
+  {
+    title: "Physiotherapist",
+    icon: physiotherapist,
+  }
 ];
 
 const technologies = [
@@ -155,7 +160,7 @@ const experiences = [
     ],
   },
   {
-    title: "Functional Assessor (Physiotherapist)",
+    title: "Physiotherapist",
     company_name: "Maximus UK",
     icon: maximus,
     iconBg: "#E6DEDD",
@@ -241,7 +246,7 @@ const projects = [
       },
       {
         name: "redux",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
       {
         name: "tailwind",
