@@ -9,7 +9,7 @@ import { testimonials } from '../constants'
 const FeedbackCard = ({index, testimonial, name, designation, company, image}) => (
   <motion.div
   variants={fadeIn('', 'spring', index * 0.5, 0.75)}
-  className='bg-black-200 p-10 rounded-3xl xs:w-[450px] w-full'>
+  className='bg-tertiary border border-t-4 border-gray-600 p-10 rounded-3xl xs:w-[450px] w-full'>
     <p className='text-white font-black text-[48px]'>"</p>
     <div className='mt-1'>
     <p className='text-white tracking-wider text-[16px]'>{testimonial}</p>
@@ -34,7 +34,7 @@ const FeedbackCard = ({index, testimonial, name, designation, company, image}) =
 )
 const Feedbacks = () => {
   return (
-    <div className='mt-12 bg-black-100 rounded-[20px]'>
+    <div className='mt-12 bg-primary rounded-[20px]'>
       <div className={`${styles.padding} bg-tertiary rounded-2xl min-h-[300px]`}>
         <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What other say</p>
