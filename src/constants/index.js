@@ -259,7 +259,7 @@ const projects = [
   {
     name: "LinkedIn Clone",
     description:
-      "A React-based web app that uses Firebase and Cloud Firestore for user authentication and data storage. Users can register, create posts, and view them on the feed. Material UI is used for styling and login details are stored in Redux for a seamless experience. Deployed on Firebase.",
+      "Web App built with React. Uses Firebase and Cloud Firestore for user authentication and data storage. Users can register, create posts, and view them on the feed. MUI is used for styling and login details are stored in Redux. Deployed on Firebase.",
     tags: [
       {
         name: "react",
@@ -280,7 +280,7 @@ const projects = [
   {
     name: "MoodMix",
     description:
-      "This web app offers a unique experience that combines mixology, gastronomy, and inspiration. It has a polished UI and uses server-side APIs and client-side storage for data persistence. Created with HTML, CSS, Bootstrap, and JavaScript, and deployed on GitHub Pages.",
+      "This Web App offers meal and drink recipes based on mood. It has a polished UI and uses server-side APIs and client-side storage for data persistence. Created with HTML, CSS, Bootstrap, and JS, and deployed on GitHub Pages.",
     tags: [
       {
         name: "restapi",
@@ -322,7 +322,7 @@ const projects = [
   {
     name: "Daily Planner",
     description:
-      "A web calendar app built with HTML, CSS, JavaScript, jQuery, and Moment.js. It allows saving events for each hour of the day and displays the current day. Time-blocks are color-coded and events persist using local storage.",
+      "A web app built with HTML, CSS, JavaScript, jQuery, and Moment.js. It allows saving events for each hour of the day. Time-blocks are color-coded and events persist using local storage.",
     tags: [
       {
         name: "jquery",
@@ -343,7 +343,7 @@ const projects = [
   {
     name: "Team-Profile Generator",
     description:
-      "This Node.js command-line app generates an HTML webpage of employee summaries for a software engineering team. It uses TDD, Inquirer for user input, and Jest package for unit tests. Includes input validation and prompts for team members. ",
+      "Node.js command-line app that generates a webpage. It uses TDD, Inquirer for user input, and Jest package for unit tests. Includes input validation and prompts for team members. ",
     tags: [
       {
         name: "nodejs",

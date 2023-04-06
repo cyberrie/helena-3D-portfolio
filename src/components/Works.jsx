@@ -13,15 +13,14 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
     <motion.div
     variants={fadeIn('up', 'spring', index * 0.5, 0.75)}
     >
-      <Tilt
-      options={{
-      max:45, 
-      scale: 1, 
-      speed: 450 }}
-      className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+      <Tilt className="bg-tertiary p-5 rounded-2xl w-full sm:w-[340px] xs:w-[200px]"
+        options={{
+        max:45, 
+        scale: 0.9, 
+        speed: 450 }}
       >
 
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[120px] '>
           <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl"/>
           <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div onClick={() => window.open(source_code_link, '_blank')}
@@ -32,7 +31,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
         </div>
 
         <div className='mt-5'>
-        <h3 className='text-white font-bold tex-[24px]'>{name}</h3>
+        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
         <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
