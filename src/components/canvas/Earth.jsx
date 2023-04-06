@@ -2,7 +2,7 @@ import React from 'react'
 import { Suspense } from 'react'
 import { Canvas } from '@react-three/fiber'
 import { OrbitControls, Preload, useGLTF } from '@react-three/drei'
-import CanvasLoader from '../Loader'
+import CanvasLoader from '../Loader.jsx'
 
 //import earth model
 const Earth = () => {

@@ -5,7 +5,7 @@ import { extend } from '@react-three/fiber'
 // extend({ OrbitControls })
 
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../Loader.jsx";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./retro_computer/scene.gltf");
