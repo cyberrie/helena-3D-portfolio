@@ -19,8 +19,7 @@ If you'd like to explore and use my code - feel free to do so! And give it a sta
 You can clone my repo on your local machine... 
 
 1. Hit a green 'Code' button on my [GitHub Repo](https://github.com/cyberrie/helena-3D-portfolio) and coppy SSH key
-
-2. Use the below command on yout Terminal (Mac) / Bash (Windows)
+2. Use the below command on yout Terminal(Mac)/ Bash(Windows)
 ```
 git clone <copy SSH key here>
 ```
