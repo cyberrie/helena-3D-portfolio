@@ -24,17 +24,14 @@ You can clone my repo on your local machine...
 ```
 git clone <copy SSH key here>
 ```
-
 3. Install all dependencies by running 
 ```
 npm install
 ```
-
 4. Run the App with
 ```
 npm run dev
 ```
-
 5. Feel free to experiment, add your own 3D art, create your own color theme and most importantly, enjoy! 🙃
 
 ## Contributions
