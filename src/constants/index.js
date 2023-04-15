@@ -18,7 +18,7 @@ import {
   firebase,
   bootstrap,
   logo,
-  physiotherapist
+  physiotherapist,
 } from "../assets";
 
 import TuneLab from "../assets/TuneLab.png";
@@ -27,10 +27,11 @@ import moodmix from "../assets/moodmix.png";
 import weatherdashboard from "../assets/weatherdashboard.png";
 import dailyplanner from "../assets/dailyplanner.png";
 import teamprofiles from "../assets/teamprofiles.png";
-import design from '../assets/design.png'
-import reactive from '../assets/reactive.png'
-import dane from '../assets/dane.png'
-import scott from '../assets/scott.png'
+import ecommerce from "../assets/ecommerce.png";
+import design from "../assets/design.png";
+import reactive from "../assets/reactive.png";
+import dane from "../assets/dane.png";
+import scott from "../assets/scott.png";
 
 export const navLinks = [
   {
@@ -49,21 +50,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Web Development",
     icon: frontend,
   },
   {
-    title: "UI/UX Designer",
+    title: "UI/UX Design",
     icon: design,
   },
   {
-    title: "React.js Developer",
+    title: "React Web Development",
     icon: reactive,
   },
-  {
-    title: "Physiotherapist",
-    icon: physiotherapist,
-  }
+  // {
+  //   title: "Physiotherapist",
+  //   icon: physiotherapist,
+  // }
 ];
 
 const technologies = [
@@ -144,7 +145,6 @@ const experiences = [
       "Developing strategies to improve clinical performance and engagement, resulting in quality enhancements seen regionally and nationally.",
       "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
       "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
-   
     ],
   },
   {
@@ -156,7 +156,6 @@ const experiences = [
     points: [
       // "Implemented successful remote training program during unprecedented times, onboarding and equipping 30+ new staff to become functional assessors.",
       // "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
-
     ],
   },
   {
@@ -177,15 +176,9 @@ const experiences = [
     date: "Aug 2017 - Sep 2018",
     points: [
       // "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department",
-  
       // "Mentored students and Junior Physiotherapists.",
-  
     ],
   },
- 
-  
- 
- 
 ];
 
 const education = [
@@ -235,6 +228,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "AudioVerse",
+    description:
+      "AudioVerse is a fully responsive eCommerce website built with React, Next.js, integrated Stripe payments,using Sanity as the backend and is deployed on Vercel.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "stripe",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sanity",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce,
+    source_code_link: "https://github.com/cyberrie/eCommerce",
+  },
   {
     name: "TuneLab",
     description:
