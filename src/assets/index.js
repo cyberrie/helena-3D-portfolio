@@ -5,7 +5,7 @@ import close from "./close.svg";
 import live from "./live.png";
 import headshot from "./Headshot.png";
 import servicing from "./servicing.png";
-import seo from "./assets/seo.png";
+import seo from "./seo.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -24,8 +24,8 @@ import bootstrap from "./tech/bootstrap.png";
 import firebase from "./tech/firebase.png";
 import frontend from "../assets/frontend.png";
 import physiotherapist from "../assets/physiotherapist.png";
-import yes from "../assets/yes.png";
-import no from "../assets/no.png";
+import yes from "./yes.png";
+import no from "./no.png";
 
 import discovery from "./company/discovery.png";
 import development from "./company/development.png";
