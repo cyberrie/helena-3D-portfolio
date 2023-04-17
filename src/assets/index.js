@@ -3,9 +3,9 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import live from "./live.png";
-import headshot from "../assets/headshot.png";
-import servicing from "../assets/servicing.png";
-import seo from "../assets/seo.png";
+import headshot from "./headshot.png";
+import servicing from "./servicing.png";
+import seo from "./assets/seo.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
