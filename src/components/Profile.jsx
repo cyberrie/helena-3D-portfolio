@@ -34,7 +34,7 @@ const Profile = () => {
             <span className="pink-text-gradient">Helena Gilja</span> and I am a{" "}
             <span className="pink-text-gradient">Freelance Web Developer</span>{" "}
             based in London. Fun fact: It took me a global pandemic to pursue my
-            Tech Dreams.
+            tech dreams.
           </motion.p>
           <motion.p
             variants={fadeIn("left", "", 0.1, 1)}
