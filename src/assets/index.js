@@ -3,7 +3,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import live from "./live.png";
-import headshot from "./headshot.png";
+import headshot from "./Headshot.png";
 import servicing from "./servicing.png";
 import seo from "./assets/seo.png";
 
