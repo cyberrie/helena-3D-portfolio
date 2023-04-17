@@ -64,7 +64,7 @@ const Timeline = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 mb-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        At WebWorks, we strive to create websites that truly embody the essence
+        We strive to create websites that truly embody the essence
         of our clients' brands and messages. To achieve this, we prioritize
         designing for the user and ensuring the website is intuitive, easy to
         navigate, and accessible for everyone.

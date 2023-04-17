@@ -58,7 +58,7 @@ const About = () => {
       >
         With affordable pricing and a commitment to providing the highest
         quality, we specialize in Web design and Development, Website
-        maintenance and support and improving SEO.
+        maintenance, support and optimization.
       </motion.p>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}

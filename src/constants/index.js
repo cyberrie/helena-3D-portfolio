@@ -67,7 +67,7 @@ const services = [
     icon: reactive,
   },
   {
-    title: "Search Engine Optimization",
+    title: "Website Optimization",
     icon: seo,
   },
 ];

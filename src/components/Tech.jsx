@@ -18,9 +18,7 @@ const Tech = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        We leverage cutting-edge technologies like Three.js and AI-powered
-        applications to create immersive and interactive experiences that leave
-        a lasting impression on users.
+        In our custom and fully responsive web developement, we leverage cutting-edge technologies and AI-powered applications to create immersive and interactive experiences that leave a lasting impression on users. 
       </motion.p>
 
       <div className=" mt-20 flex flex-row flex-wrap justify-center gap-10">
