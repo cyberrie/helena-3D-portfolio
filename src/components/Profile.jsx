@@ -17,12 +17,12 @@ const Profile = () => {
         <p className={styles.sectionSubText}>Face Behind WebWorks</p>
         <h2 className={styles.sectionHeadText}>Who Am I?</h2>
       </motion.div>
-      <div className="flex lg:flex-nowrap  flex-wrap items-center justify-evenly gap-6 mt-[60px] ">
+      <div className="flex lg:flex-nowrap flex-wrap items-center justify-evenly gap-6 mt-[60px] ">
         <motion.div variants={fadeIn("right", "", 0.1, 1)}>
           <img
             src={headshot}
             alt={headshot}
-            className="h-[370px] min-w-[370px] rounded-3xl shadow-card border-l border-t border-white"
+            className="h-[370px] lg:min-w-[370px] w-full rounded-3xl shadow-card border-l border-t border-white"
           />
         </motion.div>
         <div>
