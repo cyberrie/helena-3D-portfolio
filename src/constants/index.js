@@ -9,16 +9,17 @@ import {
   nodejs,
   git,
   figma,
-  maximus,
-  lnwh,
-  ucl,
-  vevu,
-  trilogy,
   threejs,
   firebase,
   bootstrap,
-  logo,
-  physiotherapist,
+  discovery,
+  design1,
+  planning,
+  development,
+  launch,
+  maintenance,
+  servicing,
+  seo,
 } from "../assets";
 
 import TuneLab from "../assets/TuneLab.png";
@@ -36,11 +37,15 @@ import scott from "../assets/scott.png";
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Services",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Portfolio",
+  },
+  {
+    id: "profile",
+    title: "Bio",
   },
   {
     id: "contact",
@@ -50,21 +55,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Frontend Web Development",
+    title: "Website Design and Development",
     icon: frontend,
   },
   {
-    title: "UI/UX Design",
-    icon: design,
+    title: "Website Maintenance and Support",
+    icon: servicing,
   },
   {
     title: "React Web Development",
     icon: reactive,
   },
-  // {
-  //   title: "Physiotherapist",
-  //   icon: physiotherapist,
-  // }
+  {
+    title: "Search Engine Optimization",
+    icon: seo,
+  },
 ];
 
 const technologies = [
@@ -122,61 +127,65 @@ const technologies = [
   },
 ];
 
-const experiences = [
+const process = [
   {
-    title: "Frontend Developer",
-    company_name: "Freelance",
-    icon: logo,
-    iconBg: "#E6DEDD",
-    date: "Mar 2023 - Present",
+    title: "1.",
+    step_name: "Discovery Phase",
+    icon: discovery,
+    iconBg: "#000000",
+    desc: "The Aha! Moment",
     points: [
-      "Developing web applications using React and other related technologies.",
-      "Implementing responsive design and ensuring cross-browser compatibility for seamless user experiences.",
-      "Collaborating with clients throughout the development process to ensure that their requirements are fully met and the end-product is of high quality.",
+      "This is where we get to know you and your brand, your goals, and your target audience. We dig deep to understand your unique story, message, and values so that we can create a website that truly represents who you are.",
     ],
   },
   {
-    title: "Clinical Manager",
-    company_name: "Maximus UK",
-    icon: maximus,
-    iconBg: "#E6DEDD",
-    date: "Sep 2021 - Present",
+    title: "2.",
+    step_name: "Planning Phase",
+    icon: planning,
+    iconBg: "#000000",
+    desc: "The Roadmap to Awesome",
     points: [
-      "Developing strategies to improve clinical performance and engagement, resulting in quality enhancements seen regionally and nationally.",
-      "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
-      "Awarded a Clinical Innovation Award at Maximus Clinical Conference 2022.",
+      "In this phase, we create a detailed roadmap for your website development project. We establish timelines, milestones, and deliverables, and make sure we are aligned with your vision and objectives. We collaborate with you to ensure that the planning phase is both strategic and creative.",
     ],
   },
   {
-    title: "National Trainer",
-    company_name: "Maximus UK",
-    icon: maximus,
-    iconBg: "#E6DEDD",
-    date: "Mar 2020 - Mar 2021",
+    title: "3.",
+    step_name: "Design Phase",
+    icon: design1,
+    iconBg: "#000000",
+    desc: "Let's Get Creative ",
     points: [
-      // "Implemented successful remote training program during unprecedented times, onboarding and equipping 30+ new staff to become functional assessors.",
-      // "Creating streamlined processes for new recruits, reducing attrition rates and standardizing procedures across regions.",
+      "This is where we bring your website to life. Our team creates a visual concept that is both beautiful and functional. We focus on creating an engaging user experience that captures the essence of your brand and makes it easy for users to navigate.",
     ],
   },
   {
-    title: "Physiotherapist",
-    company_name: "Maximus UK",
-    icon: maximus,
-    iconBg: "#E6DEDD",
-    date: "Sep 2018 - Mar 2020",
+    title: "4.",
+    step_name: "Development Phase",
+    icon: development,
+    iconBg: "#000000",
+    desc: "The Building Blocks",
     points: [
-      // "Transforming lives of our customers and helping them move forward by carrying out Work Capability Assessments.",
+      "In this phase, we turn the design into a functional website. Our team works on coding, testing, and refining your website to ensure that it is fast, responsive, and accessible to all users. We make sure that your website is optimized for search engines and integrates seamlessly with your existing systems.",
     ],
   },
   {
-    title: "Physiotherapist",
-    company_name: "LNWH",
-    icon: lnwh,
-    iconBg: "#E6DEDD",
-    date: "Aug 2017 - Sep 2018",
+    title: "5.",
+    step_name: "Launch Phase",
+    icon: launch,
+    iconBg: "#000000",
+    desc: "Blast Off!",
     points: [
-      // "Worked as a part of Short-Term Assessment, Rehabilitation and Reablement Service in A+E Department",
-      // "Mentored students and Junior Physiotherapists.",
+      "This is where we take your website live. We ensure that everything is in place, from hosting and domain name registration to analytics and tracking. We can also provide you with training and support to ensure that you can manage your website effectively.",
+    ],
+  },
+  {
+    title: "6.",
+    step_name: "Maintenance Phase",
+    icon: maintenance,
+    iconBg: "#000000",
+    desc: "the vip treatment",
+    points: [
+      " Once your website is live, we don't just disappear. We offer ongoing maintenance and support to ensure that your website stays up-to-date, secure, and performing at its best. We monitor your website for issues and provide regular updates and improvements to keep your website fresh and engaging.",
     ],
   },
 ];
@@ -185,24 +194,24 @@ const education = [
   {
     title: "Certificate, Frontend Web Development",
     company_name: "Trilogy Education",
-    icon: trilogy,
-    iconBg: "#E6DEDD",
+    // icon: trilogy,
+    iconBg: "#fff",
     date: "Oct 2022 - Mar 2023",
     grade: "A",
   },
   {
     title: "MSc Musculoskeletal Science",
     company_name: "UCL",
-    icon: ucl,
-    iconBg: "#E6DEDD",
+    // icon: ucl,
+    iconBg: "#fff",
     date: "Sep 2017 - Sep 2019",
     grade: "1:1",
   },
   {
     title: "BSc Physiotherapy",
-    company_name: "University of Applied Sciences, Croatia",
-    icon: vevu,
-    iconBg: "#E6DEDD",
+    // company_name: "University of Applied Sciences, Croatia",
+    // icon: vevu,
+    iconBg: "#fff",
     date: "Sep 2011 - Sep 2014",
     grade: "1:1",
   },
@@ -214,7 +223,7 @@ const testimonials = [
       "As a student, Helena displayed a great aptitude for front-end web development. I was consistently impressed with her technical proficiency, and her ability to learn and apply concepts quickly and effectively. Helena showed a keen attention to detail in all her work. More than just her technical skills, Helena was a joy to work with. She has a fantastic personality, is hardworking, and is committed to excellence. She was always willing to help her classmates and contributed positively to the classroom environment. I am confident that Helena will bring these same qualities to any position she holds in the industry. She is a dedicated learner and a team player, and I have no doubt that she will continue to grow and thrive in the field of front-end web development.",
     name: "Dane Edwards",
     designation: "Web Development Instructor",
-    company: "Trilogy Education (acquired by 2U)",
+    company: "Trilogy Education",
     image: dane,
   },
   {
@@ -227,11 +236,113 @@ const testimonials = [
   },
 ];
 
+const pricing = [
+  {
+    recommended: false,
+    title: "Basic",
+    // icon: priceIcon1,
+    desc: "Great for personal websites",
+    amount: "£649",
+    options: [
+      {
+        status: true,
+        label: "3 Page Website",
+      },
+      {
+        status: true,
+        label: "Mobile Ready Design",
+      },
+      {
+        status: true,
+        label: "Website Contact Form",
+      },
+      {
+        status: true,
+        label: "Social Media Integration",
+      },
+      {
+        status: false,
+        label: "Google Maps",
+      },
+      {
+        status: false,
+        label: "1 Year FREE Hosting",
+      },
+    ],
+  },
+  {
+    recommended: true,
+    title: "Pro",
+    // icon: priceIcon2,
+    desc: "Great for small business websites",
+    amount: "£949",
+    options: [
+      {
+        status: true,
+        label: "5 Page Website",
+      },
+      {
+        status: true,
+        label: "Mobile Ready Design",
+      },
+      {
+        status: true,
+        label: "Website Contact Form",
+      },
+      {
+        status: true,
+        label: "Google Maps",
+      },
+      {
+        status: true,
+        label: "Social Media Integration",
+      },
+      {
+        status: true,
+        label: "1 Year FREE Hosting",
+      },
+    ],
+  },
+  {
+    recommended: false,
+    title: "Ultimate",
+    // icon: priceIcon2,
+    desc: "Great for medium sized businesses",
+    amount: "£1049",
+    options: [
+      {
+        status: true,
+        label: "7 Page Website",
+      },
+      {
+        status: true,
+        label: "Mobile Ready Design",
+      },
+      {
+        status: true,
+        label: "Website Contact Form",
+      },
+      {
+        status: true,
+        label: "Google Maps",
+      },
+      {
+        status: true,
+        label: "Social Media Integration",
+      },
+      {
+        status: true,
+        label: "1 Year FREE Hosting",
+      },
+    ],
+  },
+];
+
 const projects = [
   {
     name: "AudioVerse",
     description:
-      "AudioVerse is a fully responsive eCommerce website built with React, Next.js, integrated Stripe payments,using Sanity as the backend and is deployed on Vercel.",
+      "eCommerce Website with integrated Stripe payments, using Sanity as forContent Management.",
     tags: [
       {
         name: "react",
@@ -247,12 +358,13 @@ const projects = [
       },
     ],
     image: ecommerce,
+    live_link: "https://e-commerce-cyberrie.vercel.app/",
     source_code_link: "https://github.com/cyberrie/eCommerce",
   },
   {
     name: "TuneLab",
     description:
-      "Discover top artists and charts, search and listen to music with this web app. Built with ShazamCore API, React Redux, Tailwind, and Vite, and deployed on Netlify. Demo available due to subscription fee for Shazam Core API.",
+      "Web App that enables discovery of top artists and charts, searching and listening to music. Demo only available here due to API fees",
     tags: [
       {
         name: "react",
@@ -268,12 +380,14 @@ const projects = [
       },
     ],
     image: TuneLab,
+    live_link:
+      "https://drive.google.com/file/d/11vnV9eSSdb0Wcx_xukyasOZtQeCtobKC/view?usp=sharing",
     source_code_link: "https://github.com/cyberrie/TuneLab",
   },
   {
     name: "LinkedIn Clone",
     description:
-      "Web App built with React. Uses Firebase and Cloud Firestore for user authentication and data storage. Users can register, create posts, and view them on the feed. MUI is used for styling and login details are stored in Redux. Deployed on Firebase.",
+      "This Web App is a LinkedIn App Clone. Users can register, create posts, and view them on the feed.",
     tags: [
       {
         name: "react",
@@ -289,12 +403,13 @@ const projects = [
       },
     ],
     image: linkedinclone,
+    live_link: "https://linkedin-clone-cyberrie.web.app/",
     source_code_link: "https://github.com/cyberrie/LinkedIn-Clone_React-Redux",
   },
   {
     name: "MoodMix",
     description:
-      "This Web App offers meal and drink recipes based on mood. It has a polished UI and uses server-side APIs and client-side storage for data persistence. Created with HTML, CSS, Bootstrap, and JS, and deployed on GitHub Pages.",
+      "This Web App selects meal and drink recipes based on selected mood.",
     tags: [
       {
         name: "restapi",
@@ -310,12 +425,13 @@ const projects = [
       },
     ],
     image: moodmix,
+    live_link: "https://cyberrie.github.io/MoodMix/",
     source_code_link: "https://github.com/cyberrie/MoodMix",
   },
   {
     name: "Weather Dashboard",
     description:
-      "This web app shows current and future weather for searched cities and stores search history in local storage. OpenWeather API provides weather data. Built with HTML, CSS, JavaScript, Moment.js.",
+      "This Web App shows current weather and weekly forecast for searched cities.",
     tags: [
       {
         name: "restapi",
@@ -331,12 +447,13 @@ const projects = [
       },
     ],
     image: weatherdashboard,
+    live_link: "https://cyberrie.github.io/Weather-Dashboard/",
     source_code_link: "https://github.com/cyberrie/Weather-Dashboard",
   },
   {
     name: "Daily Planner",
     description:
-      "A web app built with HTML, CSS, JavaScript, jQuery, and Moment.js. It allows saving events for each hour of the day. Time-blocks are color-coded and events persist using local storage.",
+      "This Web App allows saving events for each hour of the day. Time-blocks are color-coded and events persist using local storage.",
     tags: [
       {
         name: "jquery",
@@ -352,12 +469,13 @@ const projects = [
       },
     ],
     image: dailyplanner,
+    live_link: "https://cyberrie.github.io/Daily-Planner/",
     source_code_link: "https://github.com/cyberrie/Daily-Planner",
   },
   {
     name: "Team-Profile Generator",
     description:
-      "Node.js command-line app that generates a webpage. It uses TDD, Inquirer for user input, and Jest package for unit tests. Includes input validation and prompts for team members. ",
+      "Node.js CLI App that generates a Webpage. Developed using Test Driven Development. ",
     tags: [
       {
         name: "nodejs",
@@ -373,6 +491,8 @@ const projects = [
       },
     ],
     image: teamprofiles,
+    live_link:
+      "https://drive.google.com/file/d/1xLqoTUv84jBp6aRmcj81XzrplRk0anPL/view",
     source_code_link: "https://github.com/cyberrie/yourTeamProfile-Generator",
   },
 ];
@@ -380,8 +500,9 @@ const projects = [
 export {
   services,
   technologies,
-  experiences,
+  process,
   education,
   testimonials,
   projects,
+  pricing,
 };

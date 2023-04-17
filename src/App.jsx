@@ -1,16 +1,17 @@
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import {
   About,
   Contact,
-  Experience,
+  Timeline,
   Feedbacks,
   Hero,
   Navbar,
   Tech,
   Works,
   StarsCanvas,
-  Education,
+  Prices,
+  Profile,
 } from "./components";
 
 const App = () => {
@@ -22,10 +23,12 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        <Experience />
-        <Education />
         <Tech />
+        <Timeline />
+        <Prices />
+        {/* <Education /> */}
         <Works />
+        <Profile />
         <Feedbacks />
         <div className="relative z-0">
           <Contact />

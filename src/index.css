@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&family=Great+Vibes&family=Ruthie&family=WindSong&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -15,9 +17,25 @@
   color-scheme: dark;
 }
 
+.charmonman {
+  font-family: "Charmonman", sans-serif;
+}
+
+.great-vibes {
+  font-family: "Great Vibes", sans-serif;
+}
+
+.ruthie {
+  font-family: "Ruthie", sans-serif;
+}
+
+.wind-song {
+  font-family: "WindSong", sans-serif;
+}
+
 .hash-span {
   margin-top: -100px;
-  padding-bottom: 100px; 
+  padding-bottom: 90px;
   display: block;
 }
 
@@ -56,9 +74,9 @@
 }
 .blue-pink-gradient {
   background: "#e07171";
-  background: linear-gradient(90.13deg, #e07171  1.9%, #61dafbaa 97.5%);
+  background: linear-gradient(90.13deg, #e07171 1.9%, #61dafbaa 97.5%);
   background: -webkit-linear-gradient(-90.13deg, #e07171 1.9%, #61dafbaa 97.5%);
-}#aaa6c3
+}
 
 .orange-text-gradient {
   background: #f12711; /* fallback for old browsers */
@@ -124,7 +142,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 
 .name-text-gradient {
   background: #e07171; /* fallback for old browsers */
@@ -228,4 +245,72 @@
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
+}
+
+.shadow {
+  box-shadow: inset 1px 1px 10px 1px rgba(0, 255, 255, 0.605);
+}
+
+.shadow-img {
+  box-shadow: 4px 3px 10px 0 rgba(49, 48, 48, 0.605);
+}
+
+button:hover {
+  box-shadow: inset 1px 1px 10px 1px rgba(247, 249, 249, 0.36);
+  transform: scale(1.1);
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+
+.contact {
+  display: inline-block;
+  position: relative;
+  color: #11998e;
+}
+
+.contact::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #38ef7d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.contact:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.link:hover {
+  transform: scale(1.1);
+  transition: ease-in-out;
+  transition-duration: 0.7s;
+}
+
+.recommended-card {
+  z-index: 1; /* Set the z-index to 1 to make the recommended card float on top of other cards */
+  transform: translateY(-0.5px) scale(1.08); /* Move the card up by 10 pixels and scale it up by 5% */
+}
+
+.vertical-timeline-element-date {
+  font-weight: bold !important;
+  text-transform: uppercase;
+  background: #ec008c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #ec008c,
+    #fc6767
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
