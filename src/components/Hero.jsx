@@ -39,11 +39,13 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             Websites Designed To
-            <br className="sm:block hidden" />
-            {" "}Take{" "}<span className="orange-text-gradient font-bold">
-              Your Business</span>
+            <br className="sm:block hidden" /> Take{" "}
             <span className="orange-text-gradient font-bold">
-            <br/>To New Heights!
+              Your Business
+            </span>
+            <span className="orange-text-gradient font-bold">
+              <br />
+              To New Heights!
             </span>
           </p>
         </div>
