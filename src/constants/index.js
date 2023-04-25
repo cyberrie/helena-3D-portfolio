@@ -342,7 +342,7 @@ const projects = [
   {
     name: "AudioVerse",
     description:
-      "eCommerce Website with integrated Stripe payments, using Sanity as forContent Management.",
+      "eCommerce Website with integrated Stripe payments, using Sanity for Content Management.",
     tags: [
       {
         name: "react",
