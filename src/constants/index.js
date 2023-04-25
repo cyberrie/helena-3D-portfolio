@@ -403,7 +403,7 @@ const projects = [
       },
     ],
     image: linkedinclone,
-    live_link: "https://linkedin-clone-cyberrie.web.app/",
+    live_link: "https://linkedin-clone-cyberrie.netlify.app/",
     source_code_link: "https://github.com/cyberrie/LinkedIn-Clone_React-Redux",
   },
   {
